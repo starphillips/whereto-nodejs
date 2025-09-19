@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+        "target": "ES2020", 
+        "sourceMap": true, // maps the complied js code back to ts
+        "outDir": "dist"
+    },
+    "include": ["scr/**/*"], // where to find our code
+}
